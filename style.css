@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=League+Spartan&display=swap');
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    background-image: url(images/bg-pattern-top-mobile.svg), url(images/bg-pattern-bottom-mobile.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left top, right bottom;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+.container{
+    text-align: center;
+}
+.reviews h1, .comments p{
+    color: hsl(300, 43%, 22%);
+}
+.reviews p{
+    color:  hsl(303, 10%, 53%);
+}
+.ratings{
+    margin: 50px auto;
+    font-weight: 900;
+}
+.rate{
+    margin: 10px;
+    padding: 5px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    line-height: 0;
+}
+.details{
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+}
+.lead{
+    display: flex;
+}
+.lead img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+.name{
+    line-height: 0;
+    margin-left: 20px;
+}
+.name h4{
+    color: hsl(0, 0%, 100%);
+}
+.name p{
+    color: hsl(333, 80%, 67%);
+    padding-left: 5px;
+}
+.stars{
+    padding-top: 5px;
+}
+.message p{
+    text-align: left;
+    line-height: 1.5;
+}
+@media (min-width:1200px) {
+    body{
+        background-image: url(images/bg-pattern-top-desktop.svg), url(images/bg-pattern-bottom-desktop.svg);
+    }
+    .customers{
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        align-items: space-between;
+    }
+    .container{
+        margin: 50px 200px;
+    }
+    .rate{
+        display: flex;
+        padding: 10px 30px;
+        width: 300px;
+    }
+    .ratings{
+        width: 65%;
+    }
+    .ratings .three{
+        margin-left: 260px;
+    }
+    .ratings .two{
+        margin-left: 200px;
+    }
+    .ratings .one{
+        margin-left: 150px;
+    }
+    .stars{
+        padding-right: 20px;
+    }
+    .feedback{
+        display: flex;
+    }
+    .feedback .three{
+        margin-top: 50px;
+    }
+    .feedback .two{
+        margin-top: 25px;
+    }
+    .reviews{
+        width: 400px;
+        text-align: left;
+        margin-top: 30px;
+    }
+    .reviews h1{
+        font-size: 50px;
+    }
+    .reviews p{
+        line-height: 1.5;
+        font-size: 17px;
+    }
+    .details{
+        width: 260px;
+        margin-right: 20px;
+        margin-left: 0;
+        height: 130px;
+        padding-bottom: 50px;
+    }
+    
+}
